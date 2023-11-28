@@ -1,0 +1,76 @@
+ GIT COMMANDS:
+
+
+git add .
+git add index.html
+git clone git@address
+git commit -m "added index.html" -m "some description"
+git commit -am "commit message" // only works for modified
+
+git status
+
+
+
+git push -u origin HEAD:master
+git push -u origin branchname
+git branch //shows branches
+git diff branchname //shows the difference between branches
+git merge branchname
+git log // gives log of all commits
+git rm --cached -r //remove all the files from commit stage
+
+
+
+#commiting a change: || #pushing on github
+$git add .
+$git status
+$git commit -m "added index.html"
+$git push origin HEAD:master
+
+
+
+#create and switch to a new branch:cae      
+git checkout -b branchname(make it very descriptive)
+
+
+
+#switch between branches:
+git checkout branchname
+
+
+
+#pull request:
+git pull origin branchname
+
+
+
+#delete a branch:
+git branch -d branchname
+
+
+
+#undoing in git:
+git reset filename || git reset HEAD~1
+git reset --hard hashvalue
+
+
+
+#files
+git config --global user.name "your name"
+git config --global user.email "you@example.com"
+git config --list
+git config user.email //snyc with email
+git config user.name //snyc with name of github acc
+git help
+git help 'keyword'
+git rm    // Remove files from the working tree and from the index
+
+
+
+#creating a new SSH key:
+$ ssh-keygen -t rsa -b 4096 -C "example@email.com"
+$ ls | grep testkey
+testkey
+testkey.pub
+$ cat testkey.pub
+ //will generate a key which you will have to add to a new SSH key in your github account
