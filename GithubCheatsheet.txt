@@ -79,7 +79,7 @@ $ cat testkey.pub
 
 
 # GIT ALIASES -----------------------------------------------------------------
-These aliases are accessible only through bash shell, to get more git aliases go to dotenv repo(starred) of andrew8088 on github
+These aliases are accessible only through bash shell, to get more git aliases go to https://github.com/andrew8088/dotfiles/blob/main/zsh/aliases.zsh aliases.zsh in zsh of dotenv repo(starred) of andrew8088 on github
 
 To view and edit git aliases from bash shell, 
 Go to "vim ~.bash_profile"
