@@ -2,12 +2,15 @@
     . open list of shortcut keys(space)
     . Helpful commands(leader + f)
 
+
 1. Open sidebar <leader> -----------(space + e)
     . Move a file ------------------(m)
     . Delete a file ----------------(d)
     . Rename a file ----------------(r)
 2. File navigation 
-    . Navigate files ---------------(up/down or J/K)
+                                                ☝
+    . Navigating inside files ------(👈 H - J - K - L 👉)
+                                            👇
     . Open file --------------------(enter)
     . Top of file ------------------(gg)
     . Bottom of file ---------------(G)
@@ -19,21 +22,21 @@
 4. Search across codebase ----------(<leader> + sg)
 5. Find and replace ----------------(local)
 6. Splitting windows
-    . Split horizontally            (<leader> + -)
-    . Split vertically              (<leader> + l)
-    . Navigate windows              (ctrl + (H/J/K/L)
+    . Split horizontally -----------(<leader> + -)
+    . Split vertically -------------(<leader> + l)
+    . Navigate windows -------------(ctrl + (H/J/K/L)
 7. LSP
-    . Go to definitions             (gd)
+    . Go to definitions ------------(gd)
     . Autocomplete
-    . Hover documentation           (K)
-    . Smart replace                 (<leader> CR)
-    . Format                        (<leader> CF)
-    . Code actions                  (<leader> CA)
-    . Remove unused imports         (<leader> CT)
-    . Organize imports              (<leader> CO)
+    . Hover documentation ----------(K)
+    . Smart replace ----------------(<leader> CR)
+    . Format -----------------------(<leader> CF)
+    . Code actions -----------------(<leader> CA)
+    . Remove unused imports --------(<leader> CT)
+    . Organize imports -------------(<leader> CO)
 8. Switch buffers
 9. Line numbers
-    . disable/enable                (<leader>ul)
+    . Disable/enable                (<leader> ul)
     . Go to line number             (linenumber (J/K))
 10. Open terminals                  (<leader> FT)
 11. Explore
@@ -55,6 +58,8 @@ $ choco install fd
 
 download a terminal emulator(wezterm or alacritty)
 
+install nerdfonts
+$ git clone --filter=blob:none --sparse git@github.com:ryanoasis/nerd-fonts
 
 Clone the starter: 
 $ git clone https://github.com/LazyVim/starter $env:LOCALAPPDATA\nvim
