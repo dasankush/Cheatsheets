@@ -7,6 +7,7 @@
     . Move a file ------------------(m)
     . Delete a file ----------------(d)
     . Rename a file ----------------(r)
+
 2. File navigation 
                                                 ☝
     . Navigating inside files ------(👈 H - J - K - L 👉)
@@ -18,13 +19,18 @@
     . End of line ------------------($)
     . Fast forward -----------------(e)
     . Fast Backward ----------------(Option <-)
+
 3. Find a file ---------------------(<leader> + ff)
+
 4. Search across codebase ----------(<leader> + sg)
+
 5. Find and replace ----------------(local)
+
 6. Splitting windows
     . Split horizontally -----------(<leader> + -)
     . Split vertically -------------(<leader> + l)
     . Navigate windows -------------(ctrl + (H/J/K/L)
+
 7. LSP
     . Go to definitions ------------(gd)
     . Autocomplete
@@ -34,16 +40,23 @@
     . Code actions -----------------(<leader> CA)
     . Remove unused imports --------(<leader> CT)
     . Organize imports -------------(<leader> CO)
+
 8. Switch buffers
+
 9. Line numbers
     . Disable/enable                (<leader> ul)
     . Go to line number             (linenumber (J/K))
+    
 10. Open terminals                  (<leader> FT)
+
 11. Explore
     . Add a file                    (%)
     . Add a folder                  (d)
+    
 12. Undo, redo, delete, visual mode
+
 13. Find and reach
+
 
 
 
